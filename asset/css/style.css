@@ -1,0 +1,255 @@
+/*Phần Đầu*/
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+ #header{
+    
+    
+ }
+#menu{
+     width: 100%;
+     height: 60px;
+     background-color: orange;
+     margin-top: 0px;
+     position: fixed;
+     z-index: 1500;
+     top: 0;
+ }
+
+#nav li{
+     display: inline-block;
+     position: relative;
+ }
+#nav li a{
+     color: white;
+     line-height: 61px;
+     font-size: 22px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding:0 20px;
+ }
+
+ #nav > li > a{
+     color:white;
+     
+ }
+ #nav > li:hover > a{
+    color: black;
+    background-color: #fff;
+    display: inline-block;
+ }
+
+ #nav li:hover .subnav{
+     display: block;
+ }
+
+ #nav .subnav li:hover{
+    color: #000;
+    background-color:orange;
+    display: block;
+ }
+
+ #nav .subnav{
+     display: none;
+     position: absolute;
+     background-color: #fff;
+     box-shadow: 0 0 10px;
+     z-index: 1000;
+}
+
+#nav .subnav a{
+    color: black;
+}
+
+ #slider{
+     min-height: 500px;
+}
+
+#input-group{
+    float: right;
+}
+.input{
+    margin-top: 21px;
+}
+
+#main-menu .ti-search{
+    float: right;
+    color: white;
+    padding-top: 22px;
+    padding-right: 11px;
+}
+#main-menu .input{
+    margin-left: -35px;
+}
+
+#main-menu .ti-search li{
+    float: right;
+}
+/*Phần slider*/
+.khoi-slide{
+    width: 100%;
+    height: auto;
+}
+.slider{
+    width: 100%;
+    height: auto;
+}
+.slide_1 {
+    width: 100%;
+    height: 90%;
+    background-image: url("http://127.0.0.1:5500/asset/img/slider_2_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    z-index: 1;
+    opacity: 0;
+}
+.slide_2 {
+    width: 100%;
+    height: 90%;
+    background-image: url("http://127.0.0.1:5500/asset/img/slider_3_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    z-index: 2;
+    opacity: 0;
+}
+
+
+.nut {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+.nut ul li {
+    width: 10px;
+    height: 10px;
+    border:2px solid black;
+    display: inline-block;
+    border-radius: 100%;
+    cursor: pointer;
+}
+ 
+.nut ul li:hover {
+    background-color: black;
+}
+.ra{
+    transition: 1.5s;
+    opacity: 1;
+}
+.nut-slide i{
+    color: white;
+    font-size: 70px;
+    opacity: 0.6;
+}
+
+.nut-slide .ti-angle-left{
+    z-index: 900;
+    top: 25%;
+    position: absolute;
+    cursor: pointer;
+}
+.nut-slide .ti-angle-right{
+    float: right;
+    right: 0%;
+    z-index: 900;
+    position: absolute;
+    top:25%;
+    cursor: pointer;
+}
+.bodynut{
+    width: 70px;
+    height: 60px;
+}
+.nut-slide i:hover{
+    font-size: 60px;
+}
+.bodynut i:hover{
+    border-radius: 37px;    
+    background-color: grey;
+}
+.nut-slide .hienthi{
+    list-style-type: circle;
+    z-index: 1000;
+}
+
+/*SẢN PHẨM*/
+#list-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 745px;
+    margin-left: 65px;
+}
+.produce-item{
+    flex: 0 0 33.33333%;
+    position: relative;
+    max-width: 33.33333%;
+}
+.img{
+    width: 80% ;
+    margin-left: 29px;
+    padding-top: 20px;
+}
+.thanhphan h3{
+    
+    text-align: center;
+    
+}
+.thanhphan h3:hover a{
+    text-decoration: underline;
+}
+.giatien{
+    text-align: center;
+}
+
+
+/*footer*/
+#footer{
+    height: 100%;
+}
+#nav{
+    display: inline-block;
+}
+    
+#container{
+    display: flex;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
+    margin-top: 200px;    
+}
+
+.lienhe, .thongtin, .chinhsach, .dangky{
+    padding-left: 140px;
+    padding-top: 28px;
+}
+
+#container button{
+    padding: 0 20px ;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color:black;
+}
+.dangky input{
+    padding-left:90px;
+    padding-bottom: 8px;
+}
+#container button b{
+    color: #fff;
+}
+.chinhsach p:hover a{
+    text-decoration: underline;
+}
+.mun-soluong {
+    float: right;
+    display: flex;
+    margin-top: 0;
+}

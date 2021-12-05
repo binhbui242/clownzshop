@@ -1,0 +1,204 @@
+/*Phần Đầu*/
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+ #header{
+    
+    
+ }
+#menu{
+     width: 100%;
+     height: 60px;
+     background-color: orange;
+     margin-top: 0px;
+     position: fixed;
+     z-index: 1500;
+ }
+
+#nav li{
+     display: inline-block;
+     position: relative;
+ }
+#nav li a{
+     color: white;
+     line-height: 61px;
+     font-size: 22px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding:0 20px;
+ }
+
+ #nav > li > a{
+     color:white;
+     
+ }
+ #nav > li:hover > a{
+    color: black;
+    background-color: #fff;
+    display: inline-block;
+ }
+
+ #nav li:hover .subnav{
+     display: block;
+ }
+
+ #nav .subnav li:hover{
+    color: #000;
+    background-color:orange;
+    display: block;
+ }
+
+ #nav .subnav{
+     display: none;
+     position: absolute;
+     background-color: #fff;
+     box-shadow: 0 0 10px;
+     z-index: 1000;
+}
+
+#nav .subnav a{
+    color: black;
+}
+
+ #slider{
+    
+}
+
+#input-group{
+    float: right;
+}
+.input{
+    margin-top: 21px;
+}
+
+#main-menu .ti-search{
+    float: right;
+    color: white;
+    padding-top: 22px;
+    padding-right: 11px;
+}
+#main-menu .input{
+    margin-left: -35px;
+}
+
+#main-menu .ti-search li{
+    float: right;
+}
+/*sanpham*/
+#sanpham{
+    max-width: 80%;
+    padding-left: 0;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6px;
+}
+.sanpham > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown-divider {
+    margin: 20px 0;
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+    width: 140%;
+}
+.mun-soluong{
+    float: right;
+    display: flex;
+}
+button.qtyminus {
+    width: 35px;
+    height: 39px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #eee;
+    border-radius: 0;
+    background: #eee;
+    font-size: 24px;
+    line-height: 1em;
+    margin-right: -4px;
+    text-align: center;
+    margin: 0 2px;
+}
+
+.thongtinsanpham{
+    margin-left: 50px;
+}
+
+.thongtinsanpham .daudong{
+    font-size: 26px;
+    line-height: 29px;
+    font-weight: 500;
+}
+.thongtinsanpham p{
+    margin-bottom: 11px;
+}
+#sanpham .btnmua{
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 12px 46px;
+}
+.soluong{
+    margin-top: 25px;
+}
+#sanpham .qtyminus{
+    margin-top:-32px;
+}
+.form-control{
+    margin-top: -32px;
+}
+#sanpham a:hover{
+    text-decoration: underline;
+}
+/*footer*/
+#footer{
+    height: 100%;
+}
+#nav{
+    display: inline-block;
+}
+    
+#container{
+    display: flex;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
+    margin-top: 1391px;    
+}
+
+.lienhe, .thongtin, .chinhsach, .dangky{
+    padding-left: 140px;
+    padding-top: 28px;
+}
+
+#container button{
+    padding: 0 20px ;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color:black;
+}
+.dangky input{
+    padding-left:90px;
+    padding-bottom: 8px;
+}
+#container button b{
+    color: #fff;
+}
+.chinhsach p:hover a{
+    text-decoration: underline;
+}
+.mun-soluong {
+    float: right;
+    display: flex;
+    margin-top: 0;
+}
